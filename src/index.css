@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana;
+}
+
+.selected {
+    border: solid 2px darkslategray;
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.selected > a {
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 1rem;
+}
